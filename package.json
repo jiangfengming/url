@@ -1,0 +1,51 @@
+{
+  "name": "x-url",
+  "version": "0.1.0",
+  "description": "Tiny cross-platform URL utility",
+  "main": "dist/Url.js",
+  "scripts": {
+    "dev": "babel src -w -d dist",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenivana/Url.git"
+  },
+  "keywords": [
+    "url"
+  ],
+  "author": "Jiang Fengming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fenivana/Url/issues"
+  },
+  "homepage": "https://github.com/fenivana/Url#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "eslint": "^3.13.1",
+    "eslint-config-enough": "^0.2.4"
+  },
+  "babel": {
+    "presets": [
+      [
+        "latest",
+        {
+          "es2015": {
+            "loose": true,
+            "modules": "umd"
+          }
+        }
+      ],
+      "stage-2"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "enough"
+  }
+}
