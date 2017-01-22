@@ -192,7 +192,7 @@ url.parseQuery('foo=bar&abc=xyz&abc=123')
 
 
 ### url.formatQuery(queryObject)
-Basically the same as [querystring.stringify(obj)](https://nodejs.org/dist/latest-v7.x/docs/api/querystring.html#querystring_querystring_stringify_obj_sep_eq_options) of the built-in node.js querystring module.
+Takes a queryObject(as returned by url.parseQuery(queryString)), returns a query string. Basically the same as [querystring.stringify(obj)](https://nodejs.org/dist/latest-v7.x/docs/api/querystring.html#querystring_querystring_stringify_obj_sep_eq_options) of the built-in node.js querystring module.
 
 ```js
 url.formatQuery({ foo: 'bar', baz: ['qux', 'quux'], corge: '' })
