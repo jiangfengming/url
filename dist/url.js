@@ -8,7 +8,7 @@
       exports: {}
     };
     factory(mod, mod.exports);
-    global.Url = mod.exports;
+    global.url = mod.exports;
   }
 })(this, function (module, exports) {
   'use strict';

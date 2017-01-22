@@ -2,14 +2,14 @@
   "name": "x-url",
   "version": "0.1.0",
   "description": "Tiny cross-platform URL utility",
-  "main": "dist/Url.js",
+  "main": "dist/url.js",
   "scripts": {
     "dev": "babel src -w -d dist",
     "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fenivana/Url.git"
+    "url": "git+https://github.com/fenivana/url.git"
   },
   "keywords": [
     "url"
@@ -17,9 +17,9 @@
   "author": "Jiang Fengming",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fenivana/Url/issues"
+    "url": "https://github.com/fenivana/url/issues"
   },
-  "homepage": "https://github.com/fenivana/Url#readme",
+  "homepage": "https://github.com/fenivana/url#readme",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-plugin-add-module-exports": "^0.2.1",
